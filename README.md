@@ -17,8 +17,8 @@ git clone --depth=1 https://github.com/haxerzin/QuickKVM && cd QuickKVM && bash 
 #### Cassowary Setup
 
 Please read the cassowary docs on full setup, the following command automates dependency installs on host system. Everything else must be done manually from here: <a href="https://github.com/casualsnek/cassowary/blob/main/docs/2-cassowary-install.md#on-linux-host" title="cassowary docs 2">Cassowary Docs - Part 2</a>.
-
-<br><br>Run the following command from inside QuickKVM directory after running qkvm.sh AND after setting up Windows 10 guest system using the following docs: <a href="https://github.com/casualsnek/cassowary/blob/main/docs/1-virt-manager.md#download-windows-iso-image-and-virtio-drivers-for-windows" title="cassowary docs 1">Cassowary Docs - Part 1</a>
+<br>
+Run the following command from inside QuickKVM directory after running qkvm.sh AND after setting up Windows 10 guest system using the following docs: <a href="https://github.com/casualsnek/cassowary/blob/main/docs/1-virt-manager.md#download-windows-iso-image-and-virtio-drivers-for-windows" title="cassowary docs 1">Cassowary Docs - Part 1</a>
 
 ```shell
 bash extra.sh
