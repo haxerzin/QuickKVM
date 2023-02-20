@@ -1,5 +1,3 @@
-# QuickKVM
-
 <h1 align="center">
   <br>
   QuickKVM
