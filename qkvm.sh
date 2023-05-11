@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt update && sudo apt install -y qemu-kvm bridge-utils virt-manager qemu virt-viewer spice-vdagent && \
+sudo apt update && sudo apt install qemu-kvm bridge-utils virt-manager qemu virt-viewer spice-vdagent libhugetlbfs-bin libvirt-clients qemu-utils virt-manager ovmf && \
 sudo sed -i "s/#user = \"root\"/user = \"$(id -un)\"/g" /etc/libvirt/qemu.conf && \
 sudo sed -i "s/#group = \"root\"/group = \"$(id -gn)\"/g" /etc/libvirt/qemu.conf && \
 sudo usermod -a -G kvm $(id -un) && \
